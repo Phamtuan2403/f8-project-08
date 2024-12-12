@@ -16,6 +16,7 @@
 .top-bar {
     @extend %flexItemsCenter;
     position: relative;
+    z-index: 1;
     padding: 20px 0;
 
     @include abstracts.breakpoint(lg) {

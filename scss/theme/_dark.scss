@@ -7,9 +7,12 @@ html.dark {
 
     --body-bg: #292e39;
     --header-bg-color: #171c28;
+    --footer-gb-color: var(--header-bg-color);
+    --footer-text-color: #6e6d74;
+
     --top-acton-group-bg-color: #292e39;
     --top-action-group-shadow: rgba(0, 0, 0, 0.2);
-    --top-action-group-separate: #ededf6;
+    --top-action-group-separate: #9e9da6;
 
     @include abstracts.screen(lg) {
         --header-shadow-color: rgba(0, 0, 0, 0.2);

@@ -3,6 +3,7 @@
 .footer {
     margin-top: 50px;
     padding: 50px 0;
+    font-size: 1.4rem;
     background: var(--footer-gb-color);
 
     &__row {
@@ -23,8 +24,7 @@
 
     &__desc {
         margin-top: 30px;
-        font-size: 1.5rem;
-        line-height: 1.5;
+        line-height: 1;
 
         @include abstracts.screen(lg) {
             width: min(400px, 100%);
@@ -33,7 +33,6 @@
 
     &__help-text {
         margin-top: 40px;
-        font-size: 1.4rem;
         line-height: 1.4rem;
     }
 
@@ -50,7 +49,6 @@
     &__link,
     &__text {
         padding: 8px 0;
-        font-size: 1.5rem;
         line-height: 1.4;
     }
 
@@ -110,15 +108,12 @@
 
         @include abstracts.screen(md) {
             width: 50%;
+            font-size: 1.6rem;
         }
 
         @include abstracts.screen(sm) {
             flex: 1;
         }
-    }
-
-    &__copyright {
-        font-size: 1.4rem;
     }
 
     &__bottom {
@@ -151,6 +146,11 @@
         transition: translate, filter;
         transition-duration: 0.3s;
 
+        @include abstracts.screen(sm) {
+            width: 40px;
+            height: 40px;
+        }
+
         &--facebook {
             background: #4863a9;
         }
@@ -181,5 +181,9 @@
         width: 14px;
         filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(351deg) brightness(106%)
             contrast(103%);
+
+        @include abstracts.screen(sm) {
+            width: 18px;
+        }
     }
 }

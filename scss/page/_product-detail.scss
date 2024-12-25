@@ -63,6 +63,10 @@
     }
 }
 
+.prod-props {
+    padding-left: 30px;
+}
+
 .prod-info {
     padding: 60px;
 
@@ -70,6 +74,10 @@
         font-size: 2.6rem;
         font-weight: 500;
         line-height: 138.462%;
+    }
+
+    &__label {
+        margin-top: 30px;
     }
 }
 

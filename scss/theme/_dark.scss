@@ -11,12 +11,17 @@ html.dark {
     --footer-text-color: #6e6d74;
 
     --top-acton-group-bg-color: #292e39;
-    --top-action-group-shadow: rgba(0, 0, 0, 0.2);
-    --top-action-group-separate: #9e9da6;
+    --top-act-group-shadow: rgba(0, 0, 0, 0.2);
+    --top-act-group-separate: #9e9da6;
 
     @include abstracts.screen(lg) {
         --header-shadow-color: rgba(0, 0, 0, 0.2);
     }
+
+    // Header
+    --header-act-dropdown-bg: #2f3441;
+    --header-act-dropdown-shadow: rgba(23, 28, 40, 0.4);
+    --header-act-dropdown-border-color: #171c28;
 
     // Drop down
     --dropdown-bg-color: #2f3441;

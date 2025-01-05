@@ -1743,7 +1743,7 @@ html {
 
 .act-dropdown {
   position: absolute;
-  top: 48px;
+  top: 38px;
   right: -60px;
   width: min(500px, 100vw);
   padding-top: 28px;
@@ -1758,7 +1758,7 @@ html {
 }
 .act-dropdown__arrow {
   position: absolute;
-  top: -17px;
+  top: -11px;
   right: 90px;
   height: 20.5px;
   filter: var(--dropdown-arrow-color);
@@ -1785,6 +1785,11 @@ html {
   border-width: 1.5px 0;
   border-color: var(--header-act-dropdown-border-color);
   border-style: solid;
+}
+.act-dropdown__separate {
+  margin: 20px 0;
+  height: 1px;
+  background: var(--header-act-dropdown-border-color);
 }
 .act-dropdown__row {
   display: flex;

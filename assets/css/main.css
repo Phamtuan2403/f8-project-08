@@ -1419,6 +1419,7 @@ html.dark {
   --account-info-bg: #292e39;
   --account-info-icon-bg: #171c28;
   --separate-color: #292e39;
+  --user-menu-link-bg: #292e39;
 }
 @media (max-width: 991.98px) {
   html.dark {
@@ -1494,6 +1495,7 @@ html {
   --account-info-bg: #f6f6f6;
   --account-info-icon-bg: #fff;
   --separate-color: #d2d1d6;
+  --user-menu-link-bg: #f6f6f6;
 }
 @media (max-width: 991.98px) {
   html {
@@ -1939,7 +1941,7 @@ html {
   padding: 14px 10px;
 }
 .user-menu__link:hover {
-  background: #f6f6f6;
+  background: var(--user-menu-link-bg);
   border-radius: 10px;
 }
 .user-menu__separate {
